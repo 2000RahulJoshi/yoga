@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Grand+Hotel&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@media (max-width:1050px) and (min-width:768px) {
+    .navBarLists{
+        gap: 2.5rem !important;
+    }
+}
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+.fontColorGrey{
+    color: #424e5b !important;
+}
+
+.navBarLists{
+    gap: 3.4rem;
+}
+
+/* this is to create the underline on the anchor tags when user hover over that anchor tag */
+.navItemUnderLine{
+    height: 3px;
+    bottom: 0;
+    width: 0%;
+    transition: 0.5s;
+}
+
+.nav-item:hover > .navItemUnderLine{
+    width: 100%;
+    background-color: #424e5b;
+}
+
+.balanceYourBodyAndMindContainer{
+    background-image: url(../images/navLeafImg.png);
+    background-repeat: no-repeat;
+    background-position: top 0rem left 0rem;
+}
+
+.imgag{
+    position: relative;
+    z-index: -1;
+}
